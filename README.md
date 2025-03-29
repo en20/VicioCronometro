@@ -4,7 +4,7 @@
 Cronômetro Vício é uma aplicação web para ajudar estudantes a gerenciar e acompanhar seu tempo de estudo. Com uma interface moderna e intuitiva, permite cronometrar sessões, categorizá-las por disciplina e tópico, e visualizar estatísticas detalhadas do seu progresso.
 
 ## Deploy
-Cronômetro Vício está disponível em: https://vicio-cronometro.vercel.app/
+Caso queria testar a aplicação sem ter que clonar repositório ou instalar dependências, o Cronômetro Vício está disponível em: https://vicio-cronometro.vercel.app/
 
 
 ## Instalação
