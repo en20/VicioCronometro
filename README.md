@@ -104,7 +104,7 @@ Armazenamento.
 - **localStorage**: Armazenamento local dos dados de estudo para persistência sem necessidade de backend.
 ## Estrutura do Projeto
 ```bash
-my-app/
+VicioCronometro/
 ├── app/               # Diretório principal do Next.js 13+ (App Router)
 │   ├── components/    # Componentes reutilizáveis
 │   │   ├── Board.tsx          # Exibe estatísticas de estudo
