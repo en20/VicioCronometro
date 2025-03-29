@@ -148,11 +148,7 @@ export default function Timer() {
     };
 
     const handleResetTimer = () => {
-        if (time > 0) {
-            if (window.confirm("Tem certeza de que deseja zerar o cronômetro? O tempo não será salvo.")) {
-                dispatch(resetTimer());
-            }
-        }
+        dispatch(resetTimer());
     };
 
     const saveTime = () => {

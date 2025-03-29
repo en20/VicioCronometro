@@ -10,7 +10,6 @@ export default function Footer() {
     <footer className="mt-20 bg-gradient-to-r from-purple-50 to-purple-100 pt-12 pb-6 border-t border-purple-100">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between mb-10 gap-8">
-          {/* Logo e descrição */}
           <div className="md:w-1/3">
             <div className="flex items-center gap-2 mb-4">
               <div className="bg-white rounded-full p-1.5 shadow-sm">
@@ -64,7 +63,7 @@ export default function Footer() {
             </div>
           </div>
           
-          {/* Links */}
+          
           <div className="flex flex-col md:flex-row gap-8 md:gap-16">
             <div>
               <h3 className="font-semibold text-gray-800 mb-3">Navegação</h3>
@@ -121,10 +120,10 @@ export default function Footer() {
           </div>
         </div>
         
-        {/* Divider */}
+      
         <div className="h-px bg-gradient-to-r from-transparent via-purple-200 to-transparent my-6"></div>
         
-        {/* Copyright */}
+     
         <div className="text-center text-sm text-gray-500">
           <p>© {currentYear} Cronômetro Vício. Todos os direitos reservados.</p>
           <p className="mt-1 text-xs">
