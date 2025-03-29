@@ -43,29 +43,17 @@ O aplicativo estará acessível em http://localhost:3000
 
 ## Funcionalidades
 
-```bash
-// Cronometrar seu tempo de estudo
-startTimer(); // Inicia o cronômetro
-pauseTimer(); // Pausa o cronômetro
-resetTimer(); // Zera o cronômetro
+- 🕒 **Cronômetro de Estudos**: Acompanhe seu tempo de estudo com precisão
+- 📚 **Categorização**: Organize seus estudos por disciplinas e tópicos
+- 📊 **Estatísticas Detalhadas**: Visualize seus dados de estudo de forma clara e organizada
+- 🔍 **Análise de Progresso**: Acompanhe suas disciplinas e tópicos mais estudados
+- 📋 **Registro de Sessões**: Salve e veja suas sessões de estudo anteriores
+- 📱 **Design Responsivo**: Interface adaptada para todos os dispositivos
+- 🔄 **Persistência de Dados**: Seus dados são armazenados localmente no navegador
+- 📈 **Gráficos Visuais**: Visualize seu progresso através de gráficos intuitivos
+- 🌙 **Interface Amigável**: Design moderno e agradável utilizando gradientes roxos
+- 💾 **Sem Cadastro**: Use imediatamente sem necessidade de criar conta
 
-// Categorizar por disciplina e tópico
-setDiscipline('Matemática');
-setTopic('Cálculo');
-
-// Salvar sessões de estudo
-saveStudySession({
-  discipline: 'Matemática',
-  topic: 'Cálculo',
-  duration: 3600, // em segundos
-  date: '2025-03-28'
-});
-
-// Visualizar estatísticas detalhadas
-viewTopDisciplines();
-viewTopTopics();
-viewProgressCharts();
-```
 ## Componentes Principais
 ## Timer
 O componente central do aplicativo que gerencia o cronômetro e permite:
