@@ -131,4 +131,4 @@ VicioCronometro/
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-**Enzo Lozano Abreu**# VicioCronometro
+**Enzo Lozano Abreu**
