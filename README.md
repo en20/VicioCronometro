@@ -10,10 +10,10 @@ Use o gerenciador de pacotes npm ou yarn para instalar o Cronômetro Vicio.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/cronometro-vicio.git
+git clone https://github.com/en20/VicioCronometro.git
 
 # Navegue até o diretório
-cd cronometro-vicio
+cd VicioCronometro
 
 # Instale as dependências
 npm install
