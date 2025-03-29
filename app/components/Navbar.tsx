@@ -80,7 +80,7 @@ export default function Navbar() {
               <NavLink href="/">Início</NavLink>
               <NavLink href="/sobre">Sobre</NavLink>
               <motion.a 
-                href="https://github.com/en20"
+                href="https://github.com/en20/VicioCronometro.git"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-5 py-2 rounded-full bg-gradient-to-r from-[#7651B1] to-[#9B7ED7] text-white font-medium shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2"
@@ -171,7 +171,7 @@ export default function Navbar() {
 
                 <div className="mt-auto pt-6 border-t border-gray-100">
                   <motion.a 
-                    href="https://github.com/en20"
+                    href="https://github.com/en20/VicioCronometro.git"
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     className="w-full py-3 rounded-lg bg-gradient-to-r from-[#7651B1] to-[#9B7ED7] text-white font-medium shadow-md flex items-center justify-center gap-2"

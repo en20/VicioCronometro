@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "./providers";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { Poppins } from 'next/font/google';
 
 
@@ -32,10 +33,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-poppins">
+      <body className="font-poppins" suppressHydrationWarning>
         <Providers>
           <Navbar />
-          {children}
+          <main className="min-h-screen">
+            {children}
+          </main>
+          <Footer />
         </Providers>
       </body>
     </html>
